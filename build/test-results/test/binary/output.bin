@@ -1,0 +1,27 @@
+Request method:	POST
+2Request URI:	http://localhost:8080/app/videogames
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+"Headers:		Accept=application/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 11,
+    "name": "MyNewGame",
+    "reviewScore": 88,
+    "category": "Shooter",
+    "rating": "Mature"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 39
+$Date: Mon, 31 Aug 2020 13:45:56 GMT
+
+{
+*    "status": "Record Added Successfully"
+}
