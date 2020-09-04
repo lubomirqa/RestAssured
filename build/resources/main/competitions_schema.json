@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "id": 57,
+      "area": {
+        "id": 2072,
+        "name": "England"
+      },
+      "name": "Arsenal FC",
+      "shortName": "Arsenal",
+      "tla": "ARS",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "address": "75 Drayton Park London N5 1BU",
+      "phone": "+44 (020) 76195003",
+      "website": "http://www.arsenal.com",
+      "email": "info@arsenal.co.uk",
+      "founded": 1886,
+      "clubColors": "Red / White",
+      "venue": "Emirates Stadium",
+      "lastUpdated": "2020-08-27T02:56:31Z"
+    }
+  ],
+  "required": [
+    "id",
+    "area",
+    "name",
+    "shortName",
+    "tla",
+    "crestUrl",
+    "address",
+    "phone",
+    "website",
+    "email",
+    "founded",
+    "clubColors",
+    "venue",
+    "lastUpdated"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        57
+      ]
+    },
+    "area": {
+      "$id": "#/properties/area",
+      "type": "object",
+      "title": "The area schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "id": 2072,
+          "name": "England"
+        }
+      ],
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/area/properties/id",
+          "type": "integer",
+          "title": "The id schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            2072
+          ]
+        },
+        "name": {
+          "$id": "#/properties/area/properties/name",
+          "type": "string",
+          "title": "The name schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "England"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The name schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Arsenal FC"
+      ]
+    },
+    "shortName": {
+      "$id": "#/properties/shortName",
+      "type": "string",
+      "title": "The shortName schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Arsenal"
+      ]
+    },
+    "tla": {
+      "$id": "#/properties/tla",
+      "type": "string",
+      "title": "The tla schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "ARS"
+      ]
+    },
+    "crestUrl": {
+      "$id": "#/properties/crestUrl",
+      "type": "string",
+      "title": "The crestUrl schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+      ]
+    },
+    "address": {
+      "$id": "#/properties/address",
+      "type": "string",
+      "title": "The address schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "75 Drayton Park London N5 1BU"
+      ]
+    },
+    "phone": {
+      "$id": "#/properties/phone",
+      "type": "string",
+      "title": "The phone schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "+44 (020) 76195003"
+      ]
+    },
+    "website": {
+      "$id": "#/properties/website",
+      "type": "string",
+      "title": "The website schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "http://www.arsenal.com"
+      ]
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "string",
+      "title": "The email schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "info@arsenal.co.uk"
+      ]
+    },
+    "founded": {
+      "$id": "#/properties/founded",
+      "type": "integer",
+      "title": "The founded schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        1886
+      ]
+    },
+    "clubColors": {
+      "$id": "#/properties/clubColors",
+      "type": "string",
+      "title": "The clubColors schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Red / White"
+      ]
+    },
+    "venue": {
+      "$id": "#/properties/venue",
+      "type": "string",
+      "title": "The venue schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Emirates Stadium"
+      ]
+    },
+    "lastUpdated": {
+      "$id": "#/properties/lastUpdated",
+      "type": "string",
+      "title": "The lastUpdated schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2020-08-27T02:56:31Z"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

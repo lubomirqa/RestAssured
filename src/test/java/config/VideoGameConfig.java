@@ -10,6 +10,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.BeforeClass;
 
+import static org.hamcrest.Matchers.lessThan;
+
 public class VideoGameConfig {
 
     public static RequestSpecification videoGame_requestSpec;
@@ -28,7 +30,8 @@ public class VideoGameConfig {
                 .build();
 
         videoGame_responseSpec = new ResponseSpecBuilder()
-                .expectStatusCode(200).
+                .expectStatusCode(200)
+                .expectResponseTime(lessThan(3000L)).
                 build();
 
         RestAssured.requestSpecification = videoGame_requestSpec;
