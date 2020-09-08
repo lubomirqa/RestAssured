@@ -82,6 +82,7 @@ public class VideoGameDBTests extends VideoGameConfig {
         when()
                 .post(VideoGameEndpoints.ALL_VIDEO_GAMES).
         then();
+        System.out.println(videoGame.toString());
     }
 
     @Test

@@ -1,4 +1,4 @@
-Request method:	GET
+Request method:	POST
 2Request URI:	http://localhost:8080/app/videogames
 Proxy:			<none>
 Request params:	<none>
@@ -9,4 +9,21 @@
 1				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "reviewScore": "99",
+!    "releaseDate": "2018-04-04",
+    "name": "Newcastle",
+    "rating": "Mature",
+    "id": "15",
+    "category": "Shooter"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 39
+$Date: Tue, 08 Sep 2020 10:25:04 GMT
+
+{
+*    "status": "Record Added Successfully"
+}
+wClassPojo [reviewScore = 99, releaseDate = 2018-04-04, name = Newcastle, rating = Mature, id = 15, category = Shooter]
