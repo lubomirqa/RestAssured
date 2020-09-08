@@ -9,7 +9,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.BeforeClass;
 
-import static config.VideoGameConfig.videoGame_requestSpec;
+import static config.Constants.*;
+
 
 public class FootballAPIConfig {
 
@@ -19,9 +20,9 @@ public class FootballAPIConfig {
     @BeforeClass
     public static void setup() {
         football_requestSpec = new RequestSpecBuilder()
-                .setBaseUri("http://api.football-data.org")
+                .setBaseUri(BASE_URL)
                 .setBasePath("/v2/")
-                .addHeader("X-Auth-Token", "a6791a721dd04f24aa217163e8acb2fa")
+                .addHeader("X-Auth-Token", TOKEN)
                 .addHeader("X-Response-Control", "minified")
                 .addHeader("Content-Type", "application/json")
                 .addFilter(new RequestLoggingFilter())  // -> adds logging to every test

@@ -1,464 +1,12 @@
 Request method:	GET
-ERequest URI:	http://api.football-data.org/v2/competitions/2021/teams
+2Request URI:	http://localhost:8080/app/videogames
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-8Headers:		X-Auth-Token=a6791a721dd04f24aa217163e8acb2fa
- 				X-Response-Control=minified
-				Accept=*/*
+"Headers:		Accept=application/json
 1				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 200 
-Server: nginx/1.6.2
-$Date: Wed, 02 Sep 2020 10:17:46 GMT
--Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-.X-Application-Context: application:production
-X-Requests-Available-Minute: 9
-X-RequestCounter-Reset: 60
-X-API-Version: v2
-Access-Control-Allow-Origin: *
-'Access-Control-Allow-Credentials: true
-"Access-Control-Allow-Methods: GET
- X-Authenticated-Client: Lubomir
-Content-Language: en-US
-Content-Encoding: gzip
-
-{
-    "count": 20,
-    "filters": {
-	        
-    },
-    "competition": {
-        "id": 2021,
-        "area": {
-            "id": 2072,
-            "name": "England"
-        },
-"        "name": "Premier League",
-        "code": "PL",
-        "plan": "TIER_ONE",
-.        "lastUpdated": "2020-07-27T02:35:01Z"
-    },
-    "season": {
-        "id": 619,
-#        "startDate": "2020-09-12",
-!        "endDate": "2021-05-23",
-        "currentMatchday": 1,
-        "winner": null
-    },
-    "teams": [
-
-        {
-            "id": 57,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-"            "name": "Arsenal FC",
-$            "shortName": "Arsenal",
-            "tla": "ARS",
-Y            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
-8            "address": "75 Drayton Park London N5 1BU",
-+            "phone": "+44 (020) 76195003",
-1            "website": "http://www.arsenal.com",
-+            "email": "info@arsenal.co.uk",
-            "founded": 1886,
-)            "clubColors": "Red / White",
-)            "venue": "Emirates Stadium",
-2            "lastUpdated": "2020-08-27T02:56:31Z"
-        },
-
-        {
-            "id": 58,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-&            "name": "Aston Villa FC",
-(            "shortName": "Aston Villa",
-            "tla": "AST",
-_            "crestUrl": "https://upload.wikimedia.org/wikipedia/de/9/9f/Aston_Villa_logo.svg",
-7            "address": "Villa Park Birmingham B6 6HE",
-+            "phone": "+44 (0121) 3272299",
-0            "website": "http://www.avfc.co.uk",
-            "email": null,
-            "founded": 1872,
-/            "clubColors": "Claret / Sky Blue",
-#            "venue": "Villa Park",
-2            "lastUpdated": "2020-08-27T02:49:27Z"
-        },
-
-        {
-            "id": 61,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-"            "name": "Chelsea FC",
-$            "shortName": "Chelsea",
-            "tla": "CHE",
-Y            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
-5            "address": "Fulham Road London SW6 1HS",
-+            "phone": "+44 (0871) 9841955",
-3            "website": "http://www.chelseafc.com",
-            "email": null,
-            "founded": 1905,
-0            "clubColors": "Royal Blue / White",
-(            "venue": "Stamford Bridge",
-2            "lastUpdated": "2020-08-27T02:49:33Z"
-        },
-
-        {
-            "id": 62,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-"            "name": "Everton FC",
-$            "shortName": "Everton",
-            "tla": "EVE",
-^            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
-9            "address": "Goodison Park Liverpool L4 4EL",
-+            "phone": "+44 (0871) 6631878",
-3            "website": "http://www.evertonfc.com",
-.            "email": "everton@evertonfc.com",
-            "founded": 1878,
-*            "clubColors": "Blue / White",
-&            "venue": "Goodison Park",
-2            "lastUpdated": "2020-08-27T02:49:35Z"
-        },
-
-        {
-            "id": 63,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-!            "name": "Fulham FC",
-#            "shortName": "Fulham",
-            "tla": "FUL",
-W            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg",
-H            "address": "Craven Cottage, Stevenage Road London SW6 6HH",
-+            "phone": "+44 (0870) 4421222",
-2            "website": "http://www.fulhamfc.com",
-/            "email": "enquiries@fulhamfc.com",
-            "founded": 1879,
-+            "clubColors": "White / Black",
-'            "venue": "Craven Cottage",
-2            "lastUpdated": "2020-08-27T02:49:36Z"
-        },
-
-        {
-            "id": 64,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-$            "name": "Liverpool FC",
-&            "shortName": "Liverpool",
-            "tla": "LIV",
-[            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
-8            "address": "Anfield Road Liverpool L4 OTH",
-+            "phone": "+44 (0844) 4993000",
-4            "website": "http://www.liverpoolfc.tv",
-7            "email": "customercontact@liverpoolfc.tv",
-            "founded": 1892,
-)            "clubColors": "Red / White",
-             "venue": "Anfield",
-2            "lastUpdated": "2020-08-27T02:49:38Z"
-        },
-
-        {
-            "id": 65,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-*            "name": "Manchester City FC",
-%            "shortName": "Man City",
-            "tla": "MCI",
-g            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
-7            "address": "SportCity Manchester M11 3FF",
-+            "phone": "+44 (0870) 0621894",
-2            "website": "https://www.mancity.com",
-,            "email": "mancity@mancity.com",
-            "founded": 1880,
-.            "clubColors": "Sky Blue / White",
-'            "venue": "Etihad Stadium",
-2            "lastUpdated": "2020-08-27T02:49:39Z"
-        },
-
-        {
-            "id": 66,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-,            "name": "Manchester United FC",
-'            "shortName": "Man United",
-            "tla": "MUN",
-i            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
-@            "address": "Sir Matt Busby Way Manchester M16 0RA",
-+            "phone": "+44 (0161) 8688000",
-0            "website": "http://www.manutd.com",
-/            "email": "enquiries@manutd.co.uk",
-            "founded": 1878,
-)            "clubColors": "Red / White",
-%            "venue": "Old Trafford",
-2            "lastUpdated": "2020-08-27T02:49:42Z"
-        },
-
-        {
-            "id": 67,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-+            "name": "Newcastle United FC",
-&            "shortName": "Newcastle",
-            "tla": "NEW",
-d            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
-J            "address": "Sports Direct Arena Newcastle upon Tyne NE1 4ST",
-            "phone": null,
-0            "website": "http://www.nufc.co.uk",
-)            "email": "admin@nufc.co.uk",
-            "founded": 1881,
-+            "clubColors": "Black / White",
-(            "venue": "St. James' Park",
-2            "lastUpdated": "2020-08-27T02:49:43Z"
-        },
-
-        {
-            "id": 73,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-,            "name": "Tottenham Hotspur FC",
-&            "shortName": "Tottenham",
-            "tla": "TOT",
-`            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
-K            "address": "Bill Nicholson Way, 748 High Road London N17 OAP",
-+            "phone": "+44 (0844) 4995000",
-:            "website": "http://www.tottenhamhotspur.com",
-;            "email": "customer.care@tottenhamhotspur.com",
-            "founded": 1882,
-/            "clubColors": "Navy Blue / White",
-2            "venue": "Tottenham Hotspur Stadium",
-2            "lastUpdated": "2020-08-27T02:56:32Z"
-        },
-
-        {
-            "id": 74,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-/            "name": "West Bromwich Albion FC",
-&            "shortName": "West Brom",
-            "tla": "WBA",
-c            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/West_Bromwich_Albion.svg",
->            "address": "The Hawthorns West Bromwich B71 4LF",
-            "phone": null,
-/            "website": "http://www.wba.co.uk",
-.            "email": "enquiries@wbafc.co.uk",
-            "founded": 1879,
-/            "clubColors": "White / Navy Blue",
-&            "venue": "The Hawthorns",
-2            "lastUpdated": "2020-08-27T02:49:54Z"
-        },
-
-        {
-            "id": 76,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-2            "name": "Wolverhampton Wanderers FC",
-*            "shortName": "Wolverhampton",
-            "tla": "WOL",
-f            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg",
->            "address": "Waterloo Road Wolverhampton WV1 4QR",
-+            "phone": "+44 (0871) 2222220",
-2            "website": "http://www.wolves.co.uk",
-*            "email": "info@wolves.co.uk",
-            "founded": 1877,
-*            "clubColors": "Black / Gold",
-)            "venue": "Molineux Stadium",
-2            "lastUpdated": "2020-08-27T02:49:56Z"
-        },
-
-        {
-            "id": 328,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-"            "name": "Burnley FC",
-$            "shortName": "Burnley",
-            "tla": "BUR",
-`            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Burnley_F.C._Logo.svg",
-;            "address": "Harry Potts Way Burnley BB10 4BX",
-+            "phone": "+44 (0871) 2211882",
-=            "website": "http://www.burnleyfootballclub.com",
-+            "email": "info@burnleyfc.com",
-            "founded": 1881,
-/            "clubColors": "Claret / Sky Blue",
-"            "venue": "Turf Moor",
-2            "lastUpdated": "2020-08-27T02:50:00Z"
-        },
-
-        {
-            "id": 338,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-)            "name": "Leicester City FC",
-+            "shortName": "Leicester City",
-            "tla": "LEI",
-c            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Leicester_City_crest.svg",
-M            "address": "The Walkers Stadium, Filbert Way Leicester LE2 7FL",
-+            "phone": "+44 (0844) 8156000",
-.            "website": "http://www.lcfc.com",
-            "email": null,
-            "founded": 1884,
-0            "clubColors": "Royal Blue / White",
-+            "venue": "King Power Stadium",
-2            "lastUpdated": "2020-08-27T02:56:44Z"
-        },
-
-        {
-            "id": 340,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-&            "name": "Southampton FC",
-(            "shortName": "Southampton",
-            "tla": "SOU",
-]            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Southampton.svg",
->            "address": "Britannia Road Southampton SO14 5FP",
-            "phone": null,
-4            "website": "http://www.saintsfc.co.uk",
-+            "email": "sfc@saintsfc.co.uk",
-            "founded": 1885,
-1            "clubColors": "Red / White / Black",
-+            "venue": "St. Mary's Stadium",
-2            "lastUpdated": "2020-08-27T02:50:06Z"
-        },
-
-        {
-            "id": 341,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-'            "name": "Leeds United FC",
-)            "shortName": "Leeds United",
-            "tla": "LEE",
-[            "crestUrl": "https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg",
-5            "address": "Elland Road Leeds LS11 0ES",
-+            "phone": "+44 (0871) 3341919",
-5            "website": "http://www.leedsunited.com",
-2            "email": "reception@leedsunited.com",
-            "founded": 1904,
-*            "clubColors": "White / Blue",
-$            "venue": "Elland Road",
-2            "lastUpdated": "2020-08-27T02:50:08Z"
-        },
-
-        {
-            "id": 354,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-)            "name": "Crystal Palace FC",
-+            "shortName": "Crystal Palace",
-            "tla": "CRY",
-e            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Crystal_Palace_FC_logo.svg",
-:            "address": "Whitehorse Lane London SE25 6PU",
-+            "phone": "+44 (020) 87686000",
-0            "website": "http://www.cpfc.co.uk",
-(            "email": "info@cpfc.co.uk",
-            "founded": 1905,
-(            "clubColors": "Red / Blue",
-&            "venue": "Selhurst Park",
-2            "lastUpdated": "2020-08-27T02:50:23Z"
-        },
-
-        {
-            "id": 356,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-+            "name": "Sheffield United FC",
-*            "shortName": "Sheffield Utd",
-            "tla": "SHE",
-g            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/9c/Sheffield_United_FC_logo.svg",
-C            "address": "Bramall Lane Sheffield, Yorkshire S2 4SU",
-+            "phone": "+44 (0871) 9951899",
-0            "website": "http://www.sufc.co.uk",
-(            "email": "info@sufc.co.uk",
-            "founded": null,
-1            "clubColors": "Red / White / Black",
-%            "venue": "Bramall Lane",
-2            "lastUpdated": "2020-08-27T02:50:26Z"
-        },
-
-        {
-            "id": 397,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-1            "name": "Brighton & Hove Albion FC",
-*            "shortName": "Brighton Hove",
-            "tla": "BHA",
-l            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg",
-@            "address": "44 North Road Brighton & Hove BN1 1YR",
-+            "phone": "+44 (01273) 878288",
-4            "website": "http://www.seagulls.co.uk",
--            "email": "seagulls@bhafc.co.uk",
-            "founded": 1898,
-*            "clubColors": "Blue / White",
-?            "venue": "The American Express Community Stadium",
-2            "lastUpdated": "2020-08-27T02:50:41Z"
-        },
-
-        {
-            "id": 563,
-            "area": {
-                "id": 2072,
-"                "name": "England"
-            },
-*            "name": "West Ham United FC",
-%            "shortName": "West Ham",
-            "tla": "WHU",
-f            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
-B            "address": "Green Street, Upton Park London E13 9AZ",
-+            "phone": "+44 (020) 85482794",
-/            "website": "http://www.whufc.com",
-9            "email": "yourcomments@westhamunited.co.uk",
-            "founded": 1895,
-/            "clubColors": "Claret / Sky Blue",
-'            "venue": "London Stadium",
-2            "lastUpdated": "2020-08-27T02:50:49Z"
-
-        }
-    ]
-}
-Arsenal FC
-Liverpool FC
-Manchester United FC
-Southampton FC
-Crystal Palace FC
-Sheffield United FC
